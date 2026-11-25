@@ -1,0 +1,51 @@
+{
+  "description": "Central Provident Fund (CPF) contributions are mandatory for employers hiring Singapore Citizens and Permanent Residents.",
+  "contribution_rates": {
+    "age_55_and_below": {
+      "employer_rate": 0.17,
+      "employee_rate": 0.20,
+      "total_rate": 0.37,
+      "age_range": "55 and below"
+    },
+    "age_55_to_60": {
+      "employer_rate": 0.15,
+      "employee_rate": 0.165,
+      "total_rate": 0.315,
+      "age_range": "Above 55 to 60"
+    },
+    "age_60_to_65": {
+      "employer_rate": 0.115,
+      "employee_rate": 0.115,
+      "total_rate": 0.23,
+      "age_range": "Above 60 to 65"
+    },
+    "age_65_to_70": {
+      "employer_rate": 0.09,
+      "employee_rate": 0.075,
+      "total_rate": 0.165,
+      "age_range": "Above 65 to 70"
+    },
+    "above_70": {
+      "employer_rate": 0.075,
+      "employee_rate": 0.05,
+      "total_rate": 0.125,
+      "age_range": "Above 70"
+    }
+  },
+  "wage_ceilings": {
+    "ordinary_wage_ceiling": 6800,
+    "additional_wage_ceiling_formula": "$102,000 minus total ordinary wages for the year",
+    "description": "CPF contributions are computed on wages up to these ceilings."
+  },
+  "key_rules": [
+    "CPF contributions are mandatory for all Singapore Citizens and Permanent Residents earning more than $50 per month",
+    "For employees earning $50 to $500 per month, only the employer contributes (no employee share)",
+    "For employees earning more than $500 per month, both employer and employee contribute",
+    "Employer must pay CPF contributions by the 14th of the following month",
+    "Late payment incurs interest at 18% per annum (minimum $5)"
+  ],
+  "pr_graduated_rates": {
+    "description": "SPR employees have graduated contribution rates during their first 2 years of PR status. Full rates apply from the 3rd year.",
+    "note": "Employers and SPR employees may jointly opt for full rates from the start."
+  }
+}

@@ -1,0 +1,212 @@
+{
+  "sole_proprietorship": {
+    "display_name": "Sole Proprietorship",
+    "description": "A business owned and operated by one person. The simplest business structure with minimal regulatory requirements.",
+    "registration_fee": 115,
+    "annual_renewal_fee": 30,
+    "separate_legal_entity": false,
+    "liability": "Unlimited personal liability. The owner is personally responsible for all debts and obligations of the business.",
+    "min_owners": 1,
+    "max_owners": 1,
+    "registration_steps": [
+      "Step 1: Choose and reserve a business name via ACRA's Bizfile+ portal ($15 name application fee)",
+      "Step 2: Ensure you meet eligibility requirements — must be a Singapore Citizen, Permanent Resident, or EntrePass holder aged 18 and above",
+      "Step 3: Register the business on Bizfile+ within 120 days of name reservation ($100 registration fee for 1 year, or $175 for 3 years)",
+      "Step 4: Receive your Unique Entity Number (UEN) — typically processed within 15 minutes if no referral is needed",
+      "Step 5: Apply for relevant licences and permits via GoBusiness based on your business activities",
+      "Step 6: Open a business bank account using your UEN and registration documents"
+    ],
+    "documents_needed": [
+      "Valid Singpass for online registration",
+      "Business name (approved via Bizfile+)",
+      "Registered business address in Singapore",
+      "Description of principal business activities (SSIC code)",
+      "Particulars of owner"
+    ],
+    "processing_time": "Typically within 15 minutes if no referral to other agencies is needed. May take 14-60 days if referred.",
+    "key_considerations": [
+      "No separate legal entity — the business and the owner are the same legal person",
+      "Owner is personally liable for all business debts",
+      "Must renew registration annually or every 3 years",
+      "Cannot raise capital by issuing shares",
+      "Business income is taxed as personal income"
+    ],
+    "compliance_requirements": [
+      "Renew business registration before expiry",
+      "Maintain proper records of business transactions",
+      "File personal income tax return with business income declared",
+      "Display business name and UEN at place of business"
+    ]
+  },
+  "partnership": {
+    "display_name": "Partnership",
+    "description": "A business owned by 2 or more partners (up to 20). Partners share profits, losses, and management responsibilities.",
+    "registration_fee": 115,
+    "annual_renewal_fee": 30,
+    "separate_legal_entity": false,
+    "liability": "Unlimited personal liability for all partners. Each partner is jointly and severally liable for all debts of the partnership.",
+    "min_owners": 2,
+    "max_owners": 20,
+    "registration_steps": [
+      "Step 1: Choose and reserve a business name via Bizfile+ ($15 name application fee)",
+      "Step 2: All partners must consent to the registration",
+      "Step 3: Register the partnership on Bizfile+ ($100 for 1 year, or $175 for 3 years)",
+      "Step 4: Receive your Unique Entity Number (UEN)",
+      "Step 5: Consider drafting a Partnership Agreement (recommended but not mandatory)",
+      "Step 6: Apply for relevant licences and permits via GoBusiness",
+      "Step 7: Open a business bank account"
+    ],
+    "documents_needed": [
+      "Valid Singpass for all partners",
+      "Business name (approved via Bizfile+)",
+      "Registered business address in Singapore",
+      "Description of principal business activities (SSIC code)",
+      "Particulars of all partners"
+    ],
+    "processing_time": "Typically within 15 minutes if no referral to other agencies is needed.",
+    "key_considerations": [
+      "No separate legal entity",
+      "All partners have unlimited personal liability",
+      "Partners are jointly and severally liable for the partnership's debts",
+      "A Partnership Agreement is strongly recommended to set out each partner's rights and duties",
+      "Business income is shared among partners and taxed as personal income"
+    ],
+    "compliance_requirements": [
+      "Renew business registration before expiry",
+      "Maintain proper business records",
+      "Each partner files personal income tax with their share of partnership income",
+      "Notify ACRA of any changes in partners"
+    ]
+  },
+  "limited_partnership": {
+    "display_name": "Limited Partnership (LP)",
+    "description": "A partnership comprising at least one general partner (with unlimited liability) and one limited partner (liability capped at contribution).",
+    "registration_fee": 115,
+    "annual_renewal_fee": 30,
+    "separate_legal_entity": false,
+    "liability": "General partners have unlimited liability. Limited partners' liability is capped at their agreed contribution, but they cannot participate in management.",
+    "min_owners": 2,
+    "max_owners": null,
+    "registration_steps": [
+      "Step 1: Choose and reserve a business name via Bizfile+ ($15 name application fee)",
+      "Step 2: Determine the general and limited partners",
+      "Step 3: Register the LP on Bizfile+ ($100 for 1 year, or $175 for 3 years)",
+      "Step 4: Receive your Unique Entity Number (UEN)",
+      "Step 5: Draft a Limited Partnership Agreement (strongly recommended)",
+      "Step 6: Apply for relevant licences and permits via GoBusiness"
+    ],
+    "documents_needed": [
+      "Valid Singpass for partners",
+      "Business name (approved via Bizfile+)",
+      "Registered business address in Singapore",
+      "Description of principal business activities (SSIC code)",
+      "Particulars of all general and limited partners",
+      "Contribution amount of each limited partner"
+    ],
+    "processing_time": "Typically within 15 minutes if no referral to other agencies is needed.",
+    "key_considerations": [
+      "No separate legal entity",
+      "General partners manage the business and have unlimited liability",
+      "Limited partners cannot participate in management or they lose their limited liability protection",
+      "Less common structure — typically used for investment funds or real estate ventures"
+    ],
+    "compliance_requirements": [
+      "Renew business registration before expiry",
+      "Maintain proper records",
+      "Notify ACRA of any changes in partners or contributions",
+      "File annual declaration"
+    ]
+  },
+  "limited_liability_partnership": {
+    "display_name": "Limited Liability Partnership (LLP)",
+    "description": "A partnership structure that provides partners with limited liability protection. Combines the flexibility of a partnership with the liability protection of a company.",
+    "registration_fee": 115,
+    "annual_renewal_fee": 0,
+    "separate_legal_entity": true,
+    "liability": "Partners are not personally liable for business debts incurred by other partners. Each partner is liable only for their own wrongful acts or omissions.",
+    "min_owners": 2,
+    "max_owners": null,
+    "registration_steps": [
+      "Step 1: Choose and reserve a business name via Bizfile+ ($15 name application fee)",
+      "Step 2: Register the LLP on Bizfile+ ($100 registration fee)",
+      "Step 3: Appoint at least one manager who is a Singapore resident",
+      "Step 4: Receive your Unique Entity Number (UEN)",
+      "Step 5: Apply for relevant licences and permits via GoBusiness",
+      "Step 6: Open a business bank account"
+    ],
+    "documents_needed": [
+      "Valid Singpass for partners",
+      "Business name (approved via Bizfile+)",
+      "Registered office address in Singapore",
+      "Description of principal business activities (SSIC code)",
+      "Particulars of all partners and managers",
+      "At least one manager must be a Singapore resident"
+    ],
+    "processing_time": "Typically within 15 minutes if no referral to other agencies is needed.",
+    "key_considerations": [
+      "Separate legal entity — can sue and be sued in its own name",
+      "Partners have limited liability — not personally liable for each other's negligence",
+      "Must have at least one manager who is a Singapore resident",
+      "Popular among professional firms (lawyers, accountants, architects)"
+    ],
+    "compliance_requirements": [
+      "File annual declaration with ACRA",
+      "Maintain registers of partners and managers",
+      "Notify ACRA of changes in particulars",
+      "Keep proper accounting records"
+    ]
+  },
+  "private_limited_company": {
+    "display_name": "Private Limited Company (Pte Ltd)",
+    "description": "The most common business structure for serious ventures in Singapore. A separate legal entity with limited liability for shareholders. Most regulatory requirements but also the most credibility.",
+    "registration_fee": 315,
+    "annual_renewal_fee": 0,
+    "separate_legal_entity": true,
+    "liability": "Shareholders have limited liability — their personal assets are protected. Liability is limited to the amount of share capital they have invested.",
+    "min_owners": 1,
+    "max_owners": 50,
+    "registration_steps": [
+      "Step 1: Choose and reserve a company name via Bizfile+ ($15 name application fee)",
+      "Step 2: Prepare the company constitution (formerly known as Memorandum and Articles of Association)",
+      "Step 3: Appoint at least one director who is a Singapore resident (Citizen, PR, or EntrePass/EP holder)",
+      "Step 4: Register the company on Bizfile+ ($300 registration fee)",
+      "Step 5: Receive your Unique Entity Number (UEN) and Certificate of Incorporation",
+      "Step 6: Appoint a company secretary within 6 months of incorporation",
+      "Step 7: Open a corporate bank account",
+      "Step 8: Register for GST if expected annual turnover exceeds S$1 million",
+      "Step 9: Apply for relevant licences and permits via GoBusiness",
+      "Step 10: Set up accounting and compliance systems"
+    ],
+    "documents_needed": [
+      "Valid Singpass for directors and shareholders",
+      "Company name (approved via Bizfile+)",
+      "Registered office address in Singapore",
+      "Company constitution",
+      "Details of directors (at least one must be a Singapore resident)",
+      "Details of shareholders and their share allocation",
+      "Initial paid-up share capital (minimum S$1)",
+      "Description of principal business activities (SSIC code)"
+    ],
+    "processing_time": "Typically within 15 minutes if no referral is needed. May take 14-60 days if name or activities require approval from other agencies.",
+    "key_considerations": [
+      "Separate legal entity — company can own assets, enter contracts, sue and be sued in its own name",
+      "Limited liability for shareholders — personal assets are protected",
+      "Most regulatory requirements of all structures",
+      "Can raise capital by issuing shares",
+      "Easier to transfer ownership",
+      "Higher credibility with banks, investors, and business partners",
+      "Corporate tax rate of 17% (with startup exemptions available)",
+      "Must hold AGM and file annual returns"
+    ],
+    "compliance_requirements": [
+      "File Annual Return with ACRA",
+      "Hold Annual General Meeting (AGM)",
+      "Prepare and file annual financial statements",
+      "File corporate tax return (Form C-S or Form C) with IRAS",
+      "File Estimated Chargeable Income (ECI) within 3 months of financial year end",
+      "Maintain statutory registers",
+      "Appoint company secretary within 6 months",
+      "Appoint auditor (exemptions for small companies)"
+    ]
+  }
+}

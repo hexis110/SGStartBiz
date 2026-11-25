@@ -1,0 +1,153 @@
+{
+  "food_and_beverage": {
+    "display_name": "Food & Beverage",
+    "licenses": [
+      {
+        "name": "Food Shop Licence",
+        "authority": "Singapore Food Agency (SFA)",
+        "estimated_cost": 195,
+        "renewal": "Annual",
+        "description": "Required for all food retail establishments including restaurants, cafes, food courts, and caterers."
+      },
+      {
+        "name": "Liquor Licence",
+        "authority": "Singapore Police Force",
+        "estimated_cost": 110,
+        "renewal": "Annual",
+        "conditional": true,
+        "condition": "Required if serving alcohol after 10:30 PM",
+        "description": "Required for establishments serving or selling alcohol between 10:30 PM and 7:00 AM."
+      },
+      {
+        "name": "Public Entertainment Licence",
+        "authority": "Singapore Police Force",
+        "estimated_cost": 200,
+        "renewal": "Annual",
+        "conditional": true,
+        "condition": "Required if providing entertainment such as live music or performances",
+        "description": "Required if the establishment provides any form of entertainment."
+      }
+    ],
+    "notes": "Halal certification is optional and obtained through MUIS. Additional permits may be needed for outdoor dining."
+  },
+  "retail": {
+    "display_name": "Retail",
+    "licenses": [
+      {
+        "name": "Business Registration",
+        "authority": "ACRA",
+        "estimated_cost": 0,
+        "renewal": "N/A",
+        "description": "Covered under the main business registration. No additional retail-specific licence for general retail."
+      },
+      {
+        "name": "Import/Export Licence",
+        "authority": "Singapore Customs",
+        "estimated_cost": 0,
+        "renewal": "N/A",
+        "conditional": true,
+        "condition": "Required if importing or exporting goods",
+        "description": "Must activate Customs Account and may need product-specific permits."
+      },
+      {
+        "name": "Tobacco Retail Licence",
+        "authority": "Health Sciences Authority (HSA)",
+        "estimated_cost": 480,
+        "renewal": "Annual",
+        "conditional": true,
+        "condition": "Required if selling tobacco products",
+        "description": "Licence to sell tobacco products at retail."
+      }
+    ],
+    "notes": "Online retail businesses generally do not need additional licences beyond business registration, unless selling regulated products."
+  },
+  "professional_services": {
+    "display_name": "Professional Services",
+    "licenses": [
+      {
+        "name": "Business Registration",
+        "authority": "ACRA",
+        "estimated_cost": 0,
+        "renewal": "N/A",
+        "description": "Most professional services only need standard business registration."
+      }
+    ],
+    "notes": "Certain professions (law, medicine, architecture, accounting) require separate professional body registration and may have specific business structure requirements."
+  },
+  "technology": {
+    "display_name": "Technology / IT",
+    "licenses": [
+      {
+        "name": "Business Registration",
+        "authority": "ACRA",
+        "estimated_cost": 0,
+        "renewal": "N/A",
+        "description": "Most tech businesses only need standard business registration."
+      }
+    ],
+    "notes": "Generally no special licences required. Must comply with PDPA (Personal Data Protection Act) if handling personal data. May need IMDA licences for telecom or media services."
+  },
+  "education": {
+    "display_name": "Education & Training",
+    "licenses": [
+      {
+        "name": "Registration with CPE",
+        "authority": "Committee for Private Education (CPE) under SkillsFuture Singapore",
+        "estimated_cost": 400,
+        "renewal": "Periodic",
+        "conditional": true,
+        "condition": "Required for private education institutions offering full-time courses",
+        "description": "Private Education Institutions must be registered with CPE and comply with the Private Education Act."
+      }
+    ],
+    "notes": "Short courses and corporate training may not require CPE registration. Check with SSG for specific requirements."
+  },
+  "healthcare": {
+    "display_name": "Healthcare",
+    "licenses": [
+      {
+        "name": "Healthcare Establishment Licence",
+        "authority": "Ministry of Health (MOH)",
+        "estimated_cost": 500,
+        "renewal": "Annual or Biennial",
+        "description": "Required for clinics, hospitals, nursing homes, and other healthcare establishments."
+      },
+      {
+        "name": "Pharmacy Licence",
+        "authority": "Health Sciences Authority (HSA)",
+        "estimated_cost": 320,
+        "renewal": "Annual",
+        "conditional": true,
+        "condition": "Required if operating a pharmacy",
+        "description": "Required for retail pharmacies."
+      }
+    ],
+    "notes": "Healthcare professionals must also have individual practising certificates from their respective professional boards."
+  },
+  "construction": {
+    "display_name": "Construction",
+    "licenses": [
+      {
+        "name": "Contractor Registration",
+        "authority": "Building and Construction Authority (BCA)",
+        "estimated_cost": 300,
+        "renewal": "Periodic",
+        "description": "Required for contractors undertaking construction work in Singapore."
+      }
+    ],
+    "notes": "Additional permits may be needed for specific construction activities. Must comply with workplace safety regulations under MOM."
+  },
+  "others": {
+    "display_name": "Others",
+    "licenses": [
+      {
+        "name": "Business Registration",
+        "authority": "ACRA",
+        "estimated_cost": 0,
+        "renewal": "N/A",
+        "description": "Standard business registration is the baseline requirement."
+      }
+    ],
+    "notes": "Use GoBusiness e-Adviser (gobusiness.gov.sg) to find the specific licences required for your business activities."
+  }
+}

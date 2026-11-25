@@ -1,0 +1,75 @@
+{
+  "assumptions": {
+    "profit_margin": 0.20,
+    "note": "Illustrative estimate only: profit is assumed to be 20% of revenue when estimating corporate tax."
+  },
+  "corporate_tax": {
+    "headline_rate": 0.17,
+    "description": "Singapore has a flat corporate income tax rate of 17% on chargeable income.",
+    "partial_exemption": {
+      "description": "All companies enjoy partial tax exemption on normal chargeable income.",
+      "first_10000": {
+        "amount": 10000,
+        "exemption_rate": 0.75,
+        "effective_tax": 0.0425,
+        "explanation": "75% exemption on the first $10,000 of chargeable income"
+      },
+      "next_190000": {
+        "amount": 190000,
+        "exemption_rate": 0.50,
+        "effective_tax": 0.085,
+        "explanation": "50% exemption on the next $190,000 of chargeable income"
+      }
+    },
+    "startup_exemption": {
+      "description": "Tax Exemption Scheme for New Start-Up Companies — available for the first 3 consecutive Years of Assessment (YA).",
+      "eligibility": [
+        "Company must be incorporated in Singapore",
+        "Must be a tax resident in Singapore for that YA",
+        "Must have no more than 20 shareholders throughout the basis period",
+        "At least one shareholder holds at least 10% of issued ordinary shares",
+        "Not applicable to property developers or investment holding companies"
+      ],
+      "first_100000": {
+        "amount": 100000,
+        "exemption_rate": 0.75,
+        "effective_tax": 0.0425,
+        "explanation": "75% exemption on the first $100,000 of chargeable income"
+      },
+      "next_100000": {
+        "amount": 100000,
+        "exemption_rate": 0.50,
+        "effective_tax": 0.085,
+        "explanation": "50% exemption on the next $100,000 of chargeable income"
+      }
+    },
+    "filing_requirements": {
+      "estimated_chargeable_income": "File ECI within 3 months of the financial year end",
+      "corporate_tax_return": "File Form C-S, Form C-S (Lite), or Form C by 30 November each year",
+      "form_cs_lite_eligibility": "Revenue of $200,000 or less",
+      "form_cs_eligibility": "Revenue of $5 million or less, only Singapore-sourced income, not claiming certain deductions"
+    }
+  },
+  "gst": {
+    "rate": 0.09,
+    "effective_date": "1 January 2024",
+    "description": "Goods and Services Tax (GST) is a broad-based consumption tax levied on the supply of goods and services in Singapore.",
+    "mandatory_registration_threshold": 1000000,
+    "registration_rules": {
+      "retrospective": "Mandatory if taxable turnover exceeded $1 million in the past 12 months",
+      "prospective": "Mandatory if taxable turnover is expected to exceed $1 million in the next 12 months",
+      "voluntary": "Businesses below the threshold may register voluntarily but must remain registered for at least 2 years"
+    },
+    "responsibilities": [
+      "Charge and account for GST on taxable supplies",
+      "Issue tax invoices for standard-rated supplies",
+      "File GST returns (F5) quarterly",
+      "Maintain proper records for at least 5 years",
+      "Display GST-inclusive prices for retail"
+    ]
+  },
+  "personal_income_tax": {
+    "description": "For sole proprietorships and partnerships, business income is taxed as the owner's personal income.",
+    "note": "Personal income tax rates in Singapore are progressive, ranging from 0% to 22% (for income above $320,000)."
+  }
+}
